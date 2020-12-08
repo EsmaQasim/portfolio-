@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+h1,h2{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h2{
+	color: #4ea1b6;
+	background-color:none;
+}
+/* Navigation Bar */
+nav ul {
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+}
+nav a {
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+    color: purple;
+}
+nav a:visited {
+	color: purple;
+}
+nav a:hover{
+	color: orange;
+}
+nav a:active {
+	color: blue;
+}
+footer a:link{
+    color: white;
+}
+footer a:visited {
+	color: white;
+}
+footer a:hover{
+	color: black;
+}
+footer a:active {
+	color: gray;
+}
+footer{
+	text-align: center;
+}
+h1{
+	font-size: 3em;
+}
+i.fa{
+	font-size: 5em;
+	color: white;
+}
+class="img-fluid"{
+	display:block;
+    max-width:100%;
+    height:auto;
+
+}
+.logo{
+margin: 0 auto;
+display:block;
+}
+header img {
+	margin: 0 auto;
+	display: block;
+}
+nav ul{
+	margin: 0 auto;
+}
+nav li{
+	display: inline-block;
+	background-color: #efefef;
+	padding: 8px 10px;
+	border-radius: 50px;
+}
+nav li:hover{
+	background-color: #035bb9;
+}
+nav{
+	background-color: #ff00b3;
+	border-top: 5px solid blue;
+	border-bottom: 5px solid blue;
+}
+nav ul{
+	text-align: center;
+	padding: 8px;
+}
+body{
+	margin: 0 0;
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+}
+.icons{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 30px;
+}
+footer{
+	background-color: #4ea1b6;
+}
+.large{
+	font-size: 24px;
+}
+h1{
+	color: #4ea1b6;
+	margin-right: 10px;
+	padding-right: 10px;
+}
+.headline{
+	border-left: 3px #457431 solid;
+}
+/* CSS for Tablets */
+@media only screen and (max-width: 1024px){
+	h1{
+	font-size: 2em;
+}
+
+}
+
+
+
+/* CSS for Smartphones */
+@media only screen and (max-width:768px;){
+	h1{
+	font-size: 1.5em;
+}
